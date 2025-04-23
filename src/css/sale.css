@@ -1,0 +1,43 @@
+.title-sale {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .title-sale {
+    margin-bottom: 40px;
+  }
+}
+
+.item-clock-sale {
+  background-color: #f3f3f3;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 14px;
+}
+
+.list-clock-sale {
+  display: flex;
+  gap: 5px;
+}
+@media screen and (min-width: 768px) {
+  .list-clock-sale {
+    gap: 10px;
+    flex-direction: column;
+  }
+  .item-clock-sale {
+    width: 132px;
+    height: 132px;
+    padding: 16px 18px;
+  }
+}
