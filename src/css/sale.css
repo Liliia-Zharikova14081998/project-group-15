@@ -29,6 +29,7 @@
 .list-clock-sale {
   display: flex;
   gap: 5px;
+  margin-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
   .list-clock-sale {
@@ -39,5 +40,92 @@
     width: 132px;
     height: 132px;
     padding: 16px 18px;
+  }
+}
+
+/* main clock */
+@media screen and (min-width: 375px) {
+  .main-clock {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    width: 335px;
+    height: 385px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .main-clock {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    max-width: 335px;
+    height: 385px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .clocks-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+  }
+  .main-clock {
+    border-radius: 50px;
+    width: 552px;
+    height: 558px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .main-clock {
+    width: 428px;
+  }
+  .clocks-container {
+    flex-wrap: nowrap;
+  }
+}
+
+/* ---------about clock- --------- */
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .about-clock {
+    border-radius: 30px;
+    width: 335px;
+    height: 561px;
+    background-color: #3350e9;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 374px) {
+  .about-clock {
+    border-radius: 30px;
+    max-width: 335px;
+    height: 561px;
+    background-color: #3350e9;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-clock {
+    border-radius: 50px;
+    width: 704px;
+    height: 518px;
+    background-color: #3350e9;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-clock {
+    width: 530px;
+    height: 558px;
+    margin-left: 20px;
   }
 }
