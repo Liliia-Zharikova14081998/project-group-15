@@ -1,0 +1,14 @@
+.hero {
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  width: 597px;
+  padding-left: 65px;
+}
+.hero-title-span {
+  color: #3350e9;
+}
