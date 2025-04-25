@@ -1,0 +1,91 @@
+<section class="contact-us">
+  <div class="container contact-container">
+    <h2 class="contact-title">Contact Us</h2>
+    <div class="contact-flex">
+      <div class="form-container">
+        <p class="contact-form-des">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+
+        <form class="contact-form">
+          <div class="contact-field">
+            <label for="user-name" class="contact-label"></label>
+            <div class="input-wrap">
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                class="contact-input"
+                placeholder="Name"
+              />
+            </div>
+          </div>
+
+          <div class="contact-field">
+            <label for="user-name" class="contact-label"></label>
+            <div class="input-wrap">
+              <input
+                type="email"
+                name="user-email"
+                id="user-email"
+                class="contact-input"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                placeholder="Email"
+              />
+            </div>
+          </div>
+
+          <div class="contact-field">
+            <label for="user-phone" class="contact-label"></label>
+            <div class="input-wrap">
+              <input
+                type="tel"
+                name="user-phone"
+                id="user-phone"
+                class="contact-input"
+                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                placeholder="+380"
+              />
+            </div>
+          </div>
+
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            class="contact-input contact-textarea"
+            placeholder="Comment"
+          ></textarea>
+          <button type="submit" class="contact-btn">Send</button>
+        </form>
+      </div>
+
+      <div class="image-container">
+        <picture>
+          <source
+            srcset="
+              ./img/contact/watch-pc-min.png,./img/contact/watch-pc@2x-min.png
+            "
+            media="(min-width:1280px)"
+          />
+          <source
+            srcset="
+              ./img/contact/watch-tab-min.png,./img/contact/watch-tab@2x-min.png
+            "
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="
+              ./img/contact/watch-mob-min.png,./img/contact/watch-mob@2x-min.png
+            "
+            media="(max-width:767px)"
+          />
+          <img
+            src="./img/contact/watch-pc-min.png"
+            alt="watch-on-the-stoun-with-black-backgraun "
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
