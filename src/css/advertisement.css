@@ -1,4 +1,4 @@
-.container{
+/* .container{
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 15px;
@@ -38,17 +38,16 @@
 }
 
 .text{
-    font: 600 48px / 0.91667 "Gilroy", sans-serif;
+    font: 600 42px / 0.92 "Gilroy", sans-serif;
     letter-spacing: -0.02em;
     color: #fbfbfb;
     width: 690px;
     height: 132px;
     margin: 0;
-    justify-content: flex-start;
 }
 
 .your-story{
-    font: 600 42px / 0.91667 "Gilroy", sans-serif;
+    font: 600 42px / 0.92 "Gilroy", sans-serif;
     color: rgba(251, 251, 251, 0.5);
 }
 
@@ -64,7 +63,50 @@
     color: #fbfbfb;
     margin: 0;
     cursor: pointer;
+} */
+
+
+/* common */
+
+.container {
+    min-width: 320px;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
+@media screen and (min-width: 768px){
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+}
+    
+@media screen and (min-width: 1280px){
+    .container {
+        max-width: 1280px;
+        padding: 0 65px;
+    }
 
 
+}
+
+/* section advertisement */
+
+@media screen and (min-width: 320px){
+
+            .visually-hidden {
+                    position: absolute;
+                    width: 1px;
+                    height: 1px;
+                    margin: -1px;
+                    border: 0;
+                    padding: 0;
+                    white-space: nowrap;
+                    clip-path: inset(100%);
+                    clip: rect(0 0 0 0);
+                    overflow: hidden;
+                }
+                
+    .advertisement-content{}
+}
