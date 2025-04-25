@@ -16,7 +16,7 @@
   color: #0c0c0c;
   width: 597px;
   padding-top: 80px;
-  margin-right: 407px;
+  margin-right: 417px;
   margin: 0;
 }
 .hero-title-span {
@@ -25,6 +25,35 @@
 .clients {
   display: flex;
   padding-top: 80px;
+}
+.client-back {
+  border-radius: 100%;
+  background-color: transparent;
+}
+.client-middle {
+  border-radius: 100%;
+  background-color: transparent;
+}
+.client-front {
+  border-radius: 100%;
+  background-color: transparent;
+}
+#client-back,
+#client-middle,
+#client-front {
+  position: relative;
+}
+#client-back {
+  left: 30px;
+  z-index: 1;
+}
+#client-middle {
+  left: 15px;
+  z-index: 2;
+}
+#client-front {
+  left: 0px;
+  z-index: 3;
 }
 .hero-text-container {
   display: flex;
