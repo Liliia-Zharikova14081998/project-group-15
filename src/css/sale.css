@@ -52,31 +52,18 @@
 }
 
 /* main clock */
-@media screen and (min-width: 375px) {
-  .main-clock {
-    border: 1px solid rgba(12, 12, 12, 0.05);
-    border-radius: 30px;
-    width: 335px;
-    height: 385px;
-    background-color: #f3f3f3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+
+.main-clock {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  max-width: 335px;
+  height: 385px;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media screen and (max-width: 374px) {
-  .main-clock {
-    border: 1px solid rgba(12, 12, 12, 0.05);
-    border-radius: 30px;
-    max-width: 335px;
-    height: 385px;
-    background-color: #f3f3f3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
 @media screen and (min-width: 768px) {
   .clocks-container {
     display: flex;
@@ -104,28 +91,15 @@
 }
 
 /* ---------about clock- --------- */
-@media screen and (min-width: 375px) and (max-width: 767px) {
-  .about-clock {
-    border-radius: 30px;
-    width: 335px;
-    height: 561px;
-    background-color: #3350e9;
-    margin-top: 20px;
 
-    padding: 48px 28px;
-  }
-}
-@media screen and (max-width: 374px) {
-  .about-clock {
-    border-radius: 30px;
-    max-width: 335px;
-    height: 561px;
-    background-color: #3350e9;
-    margin-bottom: 20px;
-    margin-top: 20px;
+.about-clock {
+  border-radius: 30px;
+  width: 335px;
+  height: 561px;
+  background-color: #3350e9;
+  margin-top: 20px;
 
-    padding: 40px 20px;
-  }
+  padding: 48px 28px;
 }
 
 @media screen and (min-width: 768px) {
@@ -230,6 +204,7 @@
   .descr-about-clock {
     margin-bottom: 40px;
     font-size: 16px;
+    max-width: 398px;
   }
   .benefits-about-clock li {
     font-size: 14px;
