@@ -204,10 +204,12 @@
   .descr-about-clock {
     margin-bottom: 40px;
     font-size: 16px;
-    max-width: 398px;
   }
   .benefits-about-clock li {
     font-size: 14px;
     line-height: 1.29;
+  }
+  .benefits-about-clock {
+    max-width: 398px;
   }
 }
