@@ -13,11 +13,5 @@
     <symbol id="icon-Icon" viewBox="0 0 64 32">
       <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="5.7143" d="M2.857 4.667h58.286M2.857 27.333h58.286"></path>
     </symbol>
-    <symbol id="icon-Vector" viewBox="0 0 20480 32">
-      <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="16" d="M0 16h20480"></path>
-    </symbol>
-    <symbol id="icon-Ellipse" viewBox="0 0 36 32">
-      <path d="M34 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
-    </symbol>
   </defs>
 </svg>
