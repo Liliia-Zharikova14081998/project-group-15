@@ -51,11 +51,6 @@
   background-color: #1f3cd4;
 }
 
-.img-container {
-  max-width: 335px;
-  width: 100%;
-}
-
 @media screen and (min-width: 768px) {
   .about-us {
     padding-bottom: 80px;
@@ -81,10 +76,6 @@
 
   .view-btn {
     margin-top: 40px;
-  }
-
-  .img-container {
-    max-width: 704px;
   }
 }
 
@@ -113,10 +104,5 @@
   .view-btn:hover,
   .view-btn:focus {
     background-color: #1f3cd4;
-  }
-
-  .img-container {
-    max-width: 530px;
-    width: 100%;
   }
 }
