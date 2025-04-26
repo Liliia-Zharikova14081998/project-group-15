@@ -1,5 +1,5 @@
 .catalog {
-  background-color: #fff;
+  background-color: #fbfbfb;
   padding-bottom: 60px;
 }
 
@@ -10,16 +10,12 @@
   letter-spacing: -0.02em;
   color: #0c0c0c;
   margin-bottom: 24px;
-  margin-top: 0;
 }
 
 .catalog-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 0;
-  margin: 0;
-  list-style: none;
   padding-bottom: 40px;
 }
 
@@ -35,9 +31,7 @@
 
 .catalog-item picture img {
   width: 100%;
-  height: auto;
   margin: 0 auto;
-  display: block;
   padding: 18px 36px 18px 35px;
 }
 
@@ -74,7 +68,6 @@
   background-color: #3350e9;
   border: none;
   border-radius: 16px;
-  cursor: pointer;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -86,8 +79,7 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.catalog-button:hover,
-.catalog-button:focus {
+.catalog-button:active {
   background-color: #1f3cd4;
 }
 
@@ -107,7 +99,6 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 32px 16px;
-    padding-bottom: 0;
   }
 
   .catalog-item {
