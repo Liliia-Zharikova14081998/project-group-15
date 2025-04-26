@@ -29,6 +29,10 @@
   margin-bottom: 20px;
 }
 
+.about-us-image {
+  border-radius: 30px;
+}
+
 .view-btn {
   display: inline-flex;
   justify-content: center;
@@ -72,6 +76,10 @@
   .about-us-descr {
     font-size: 16px;
     line-height: 1.25;
+  }
+
+  .about-us-image {
+    border-radius: 50px;
   }
 
   .view-btn {
