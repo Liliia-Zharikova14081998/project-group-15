@@ -5,82 +5,107 @@
         Welcome to our <span class="hero-title-span">collection</span> of
         premium watches
       </h1>
-      <div class="clients-container">
-        <ul class="clients">
-          <li>
-            <div id="client-back">
-              <picture
-                ><source
-                  srcset="
-                    /img/hero/victoria_romashenko.webp 1x,
-                    /img/hero/victoria_romashenko.webp 2x
-                  "
-                />
-                <img
-                  src="/img/hero/victoria_romashenko.webp"
-                  alt="victoria_romashenko_picture"
-                  width="60"
-                  class="client-back"
-                />
-              </picture>
-            </div>
-          </li>
-          <li>
-            <div id="client-middle">
-              <picture>
-                <source
-                  srcset="
-                    /img/hero/john_wax.webp     1x,
-                    /src/img/hero/john_wax.webp 2x
-                  "
-                />
-                <img
-                  src="img/hero/john_wax.webp"
-                  alt="john_wax_picture"
-                  width="60"
-                  class="client client-middle"
-                />
-              </picture>
-            </div>
-          </li>
-          <li>
-            <div id="client-front">
-              <picture>
-                <source
-                  srcset="
-                    /img/hero/anastasia_trachuk.webp 1x,
-                    /img/hero/anastasia_trachuk.webp 2x
-                  "
-                />
-                <img
-                  src="/img/hero/anastasia_trachuk.webp"
-                  alt="anastasia_trachuk_picture"
-                  width="60"
-                  class="client client-front"
-                />
-              </picture>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="hero-text-container">
       <p class="hero-text">
         Our watches are not just timepieces, but also an expression of your
         personality and lifestyle. From classic designs to modern ones, we have
         a watch to suit every taste and occasion.
       </p>
+    </div>
+    <div class="clients-container">
+      <ul class="clients">
+        <li>
+          <div id="client-back">
+            <picture
+              ><source
+                srcset="
+                  /img/hero/victoria_romashenko.webp 1x,
+                  /img/hero/victoria_romashenko.webp 2x
+                "
+              />
+              <img
+                src="/img/hero/victoria_romashenko.webp"
+                alt="victoria_romashenko_picture"
+                width="60"
+                class="client-back"
+              />
+            </picture>
+          </div>
+        </li>
+        <li>
+          <div id="client-middle">
+            <picture>
+              <source
+                srcset="
+                  /img/hero/john_wax.webp     1x,
+                  /src/img/hero/john_wax.webp 2x
+                "
+              />
+              <img
+                src="img/hero/john_wax.webp"
+                alt="john_wax_picture"
+                width="60"
+                class="client client-middle"
+              />
+            </picture>
+          </div>
+        </li>
+        <li>
+          <div id="client-front">
+            <picture>
+              <source
+                srcset="
+                  /img/hero/anastasia_trachuk.webp 1x,
+                  /img/hero/anastasia_trachuk.webp 2x
+                "
+              />
+              <img
+                src="/img/hero/anastasia_trachuk.webp"
+                alt="anastasia_trachuk_picture"
+                width="60"
+                class="client client-front"
+              />
+            </picture>
+          </div>
+        </li>
+      </ul>
       <a href="./footer.html" class="hero-btn">Scroll down</a>
     </div>
     <picture>
-      <source
+      <!-- <source
         srcset="/img/hero/watch_hero.webp 1x, /img/hero/watch_hero.webp 2x"
       />
       <img
         src="/img/hero/watch_hero.webp"
         alt="watch_hero_picture"
         width="1150"
-      />
+      /> -->
+       <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      /img/hero/watch_hero.webp    1x,
+                      /img/hero/watch_hero.webp_2x
+                    "
+                                      />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      /img/hero/watch_hero_tab.webp    1x,
+                      /img/hero/watch_hero_tab.webp_2x
+                    "
+                                     />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      /img/hero/watch_hero_mob.webp    1x,
+                      /img/hero/watch_hero_mob.webp_2x
+                    "
+                  />
+                  <img
+                    src="/img/hero/watch_hero_mob.webp"
+                    alt="Watch picture"
+                    <!-- width="360" -->
+                  />
+                </picture>
     </picture>
   </div>
 </section>
