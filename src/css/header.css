@@ -28,6 +28,8 @@
 
 .header-btn {
   padding: 0;
+  background: transparent;
+  border: none;
 }
 
 .header-btn-icon {
