@@ -74,7 +74,7 @@ background-repeat: no-repeat;
     position: relative;
 }
 
-.current::after {
+.modal-menu.current::after {
     content: '';
     position: absolute;
     border-radius: 100%;
@@ -134,13 +134,13 @@ background-repeat: no-repeat;
 .icon-item-svg{
     width: 18px;
     height: 18px;
+    fill: #FBFBFB;
+    opacity: 0.8;
 }
 
-.icon-item:active .icon-item-svg {
-    fill: #fff;
+.icon-item-svg:active {
     opacity: 1;
 }
-
 @media screen and (min-width: 768px) {
     .icon-item-svg {
         width: 20px;
