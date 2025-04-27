@@ -69,7 +69,7 @@
 .contact-textarea::placeholder {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.25;
+  line-height: 1.29;
   color: #0c0c0c;
 }
 .contact-btn {
@@ -106,6 +106,7 @@
   }
   .contact-title {
     font-size: 48px;
+    line-height: 0.92;
   }
   .form-container {
     border-radius: 50px;
