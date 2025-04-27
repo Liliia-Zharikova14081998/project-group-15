@@ -3,7 +3,6 @@
 }
 
 .hero-title {
-  font-weight: 600;
   letter-spacing: -0.02em;
   color: #0c0c0c;
   font-weight: 600;
@@ -112,8 +111,6 @@
   }
 
   .clients-container {
-    /* display: flex;
-    justify-content: space-between; */
     position: relative;
   }
   .clients {
@@ -142,8 +139,7 @@
 
   .hero-btn {
     display: block;
-    font-weight: 500;
-    font-size: 20px;
+   пше  font-size: 20px;
     line-height: 1;
     letter-spacing: -0.02em;
     text-decoration: underline;
