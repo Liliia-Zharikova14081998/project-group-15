@@ -68,10 +68,7 @@
     content: '';
     position: absolute;
     left: 50%;
-    bottom: -12px;
-    /* за макетом відступ 2px. 
-           Або я знову щось зробила з макетом. 
-           Я поставила цих 12px "на око", але щось сумніваюсь, що так можна */
+    bottom: -75%;
     width: 8px;
     height: 8px;
     border-radius: 50%;
