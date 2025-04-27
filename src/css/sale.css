@@ -1,4 +1,4 @@
- /* .title-sale {
+ .title-sale {
   font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 32px;
@@ -41,10 +41,10 @@
     height: 132px;
     padding: 16px 18px;
   }
-} */
+}
 
 /* main clock */
-/* @media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) {
   .main-clock {
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
@@ -90,10 +90,10 @@
   .clocks-container {
     flex-wrap: nowrap;
   }
-} */
+}
 
 /* ---------about clock- --------- */
-/* @media screen and (min-width: 375px) and (max-width: 767px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   .about-clock {
     border-radius: 30px;
     width: 335px;
@@ -128,4 +128,4 @@
     height: 558px;
     margin-left: 20px;
   }
-}  */
+} 
