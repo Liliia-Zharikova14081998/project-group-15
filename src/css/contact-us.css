@@ -165,20 +165,12 @@
     max-width: 580px;
     height: 556px;
   }
-  .contact-input {
-    padding-right: 315px;
-    padding-left: 16;
-  }
   .contact-image {
     border-radius: 50px;
 
     max-width: 704px;
     width: 100%;
     height: 556px;
-  }
-
-  .contact-input {
-    padding: 16px 315px 16px 16px;
   }
   .contact-input:hover,
   .contact-input:focus {
