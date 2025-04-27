@@ -2,7 +2,7 @@
 
 /* section advertisement */
 
-@media screen and (min-width: 320px){
+
 
 .visually-hidden {
     position: absolute;
@@ -19,32 +19,33 @@
 
 
 .advertisement{
+    margin-bottom: 60px;
+    }
+
+        
+
+.advertisement-content {
+    padding: 0;
     margin: 0 auto;
-    border-radius: 30px;
-    border: none;
+    padding: 60px 28px;
     background: #0c0c0c;
     background-image: url(/img/advertisement/adver-mob1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     justify-content: center;
-    padding: 60px 28px;
-    margin-bottom: 60px;
-    width: 100%;
+    border-radius: 30px;
+    border: none;
+                    
+}
 
-    }
-
-    @media (min-resolution: 2x){
-        .advertisement{
-        background-image: url(/img/advertisement/adver-mob@2x.png);
+@media (min-resolution: 2x){
+    .advertisement-content{
+        background-image: url(../img/advertisement/adver-mob@2x.png);
         
     }
 }
 
-.advertisement-content{
-    padding: 0;
-    margin: 0 auto;
-    }
 
 .text{
     font: 600 32px / 1 "Gilroy", sans-serif;
@@ -60,7 +61,7 @@
 
 .btn-link {
     width: 160px;
-    height: 42px;
+    height: 48px;
     border: 1px solid rgba(251, 251, 251, 0.15);
     border-radius: 16px;
     font: 500 14px / 1.29 "Gilroy", sans-serif;
@@ -73,24 +74,26 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-link:hover,
-.btn-link:focus {
+.btn-link:active{
     background: #fbfbfb;
     color: #0c0c0c;
     
 }
-}
+
 
 @media screen and (min-width: 768px){
     .advertisement{
-        background-image: url(/img/advertisement/adver-tablet1.png);
+    margin-bottom: 80px;
+    }
+
+    .advertisement-content{
         height: 425px;
         padding: 80px 64px;
-        margin-bottom: 80px;
+        background-image: url(/img/advertisement/adver-tablet1.png);
     }
 
 @media (min-resolution: 2x) {
-    .advertisement{
+    .advertisement-content{
         background-image: url(/img/advertisement/adver-tablet@2x.png)
             }}
 
@@ -101,33 +104,31 @@
 }
 
 .btn-link{
-    height: 48px;
     margin-top: 32px;
 }
-
 }
 
 @media screen and (min-width: 1280px) {
     .advertisement {
-        max-width: 1150px;
-        height: 298px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-        background-image: url(../img/advertisement/adver-desctop1.png);
-        padding: 80px 83px;
         margin-bottom: 100px;
 
     }
 
-    @media (min-resolution: 2x) {
-        .advertisement {
-            background-image: url(../img/advertisement/adver-desctop@2x.png);
-        }
-    }
+.advertisement-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1150px;
+    height: 298px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-image: url(../img/advertisement/adver-desctop1.png);
+    padding: 83px 80px;
+}
 
+@media (min-resolution: 2x) {
     .advertisement-content {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
+        background-image: url(../img/advertisement/adver-desctop@2x.png);
+        }
     }
 
     .text {
@@ -139,4 +140,10 @@
     .btn-link {
         margin: 0;
     }
+
+    .btn-link:hover,
+    .btn-link:focus {
+        background: #fbfbfb;
+        color: #0c0c0c;
+}
 }
