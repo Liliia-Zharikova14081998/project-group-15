@@ -48,7 +48,9 @@
 
 
 .text{
-    font: 600 32px / 1;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
     letter-spacing: -0.02em;
     color: #fbfbfb;
     align-items: flex-start;
@@ -64,7 +66,9 @@
     height: 48px;
     border: 1px solid rgba(251, 251, 251, 0.15);
     border-radius: 16px;
-    font: 500 14px / 1.29;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,7 +102,8 @@
             }}
 
 .text {
-    font: 600 48px / 0.92;
+    font-size: 48px;
+    line-height: 0.92;
     width: 576px;
     height: 185px;
 }
