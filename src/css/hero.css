@@ -141,17 +141,8 @@
     display: block;
     font-size: 20px;
     line-height: 1;
-    letter-spacing: -0.02em;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: #0c0c0c;
-    border: none;
-    background-color: transparent;
-    position: absolute;
     right: 0;
     bottom: 0;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .hero-btn:hover,
@@ -213,20 +204,10 @@
 
   .hero-btn {
     display: block;
-    font-weight: 500;
     font-size: 20px;
     line-height: 1;
-    letter-spacing: -0.02em;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: #0c0c0c;
-    border: none;
-    background-color: transparent;
-    position: absolute;
     right: 0;
     bottom: 0;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .hero-btn:hover,
   .hero-btn:focus {
