@@ -7,7 +7,7 @@ background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin: 0 auto;
-    position: fixed;
+    position: relative;
 }
 
 
@@ -63,6 +63,11 @@ background-repeat: no-repeat;
         justify-content: center;
         align-items: center;     
         gap: 24px;
+}
+
+.modal-menu-li{
+    color: #FBFBFB;
+    text-decoration: none;
 }
 
 .current{
@@ -129,6 +134,11 @@ background-repeat: no-repeat;
 .icon-item-svg{
     width: 18px;
     height: 18px;
+}
+
+.icon-item:active .icon-item-svg {
+    fill: #fff;
+    opacity: 1;
 }
 
 @media screen and (min-width: 768px) {
