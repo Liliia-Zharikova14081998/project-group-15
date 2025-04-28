@@ -18,6 +18,7 @@
                 id="user-name"
                 class="contact-input"
                 placeholder="Name"
+                aria-label="name"
                 required
               />
             </div>
@@ -33,6 +34,7 @@
                 class="contact-input"
                 pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
                 placeholder="Email"
+                aria-label="email"
                 required
               />
             </div>
@@ -48,6 +50,7 @@
                 class="contact-input"
                 pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
                 placeholder="+380"
+                aria-label="phone-number"
                 required
               />
             </div>
@@ -58,6 +61,7 @@
             id="user-comment"
             class="contact-input contact-textarea"
             placeholder="Comment"
+            aria-label="comment"
           ></textarea>
           <button type="submit" class="contact-btn">Send</button>
         </form>
@@ -86,6 +90,7 @@
           media="(max-width:767px)"
         />
         <img
+          class="contact-image"
           src="/img/contact/watch-pc-min.jpg"
           alt="watch-on-the-stoun-with-black-backgraun "
         />
