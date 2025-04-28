@@ -4,30 +4,41 @@
   }
 }
 
+.modal-menu-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 998;
+}
+
+.modal-menu-backdrop.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+
 .modal-menu-container {
   width: 100%;
-  max-width: 200px;
+  max-width: 260px;
   height: 100vh;
   background-image: url(/img/sale/modal-menu-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin: 0 auto;
-  position: relative;
+  position: absolute;
   top: 0;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
+  right: 0;
   transform: translateX(100%);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
+.modal-menu-backdrop.is-open .modal-menu-container {
   transform: translateX(0);
 }
 

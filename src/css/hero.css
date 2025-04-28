@@ -93,6 +93,7 @@
   }
   .hero-top-container {
     display: flex;
+    margin-bottom: 40px;
     /* justify-content: space-between;
     align-items: baseline; */
   }

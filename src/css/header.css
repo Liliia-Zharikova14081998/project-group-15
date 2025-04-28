@@ -72,13 +72,13 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: #404bbf;
+    background-color: #3350e9;
     transform: translateX(-50%);
     opacity: 0;
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
   }
   .header-nav-link .current {
-    color: #404bbf;
+    color: #3350e9;
   }
 
   .header-nav-link:hover:after,

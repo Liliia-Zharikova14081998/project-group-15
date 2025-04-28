@@ -107,7 +107,7 @@
 @media screen and (min-width: 768px) {
   .about-clock {
     border-radius: 50px;
-    width: 704px;
+    max-width: 704px;
 
     margin-top: 40px;
 
@@ -117,7 +117,7 @@
 
 @media screen and (min-width: 1280px) {
   .about-clock {
-    width: 530px;
+    max-width: 530px;
 
     margin-top: 0;
   }

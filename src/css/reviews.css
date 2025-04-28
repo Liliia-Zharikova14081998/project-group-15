@@ -3,6 +3,7 @@
 }
 
 .reviews-title {
+  font-weight: 600;
   font-size: 32px;
   line-height: 1;
   margin-bottom: 24px;
@@ -13,59 +14,58 @@
 }
 
 .reviews-item-box {
-    padding: 32px 36px;
-    background-color: #f3f3f3;
-    border-radius: 30px;
-    text-align: center;
-    position: relative;
-    height: 100%;
+  padding: 32px 36px;
+  background-color: #f3f3f3;
+  border-radius: 30px;
+  text-align: center;
+  position: relative;
+  height: 100%;
 }
 
 .reviews-img {
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: cover;
-    margin-top: 0;
-    border-radius: 100%;
-    border: 2px solid #fbfbfb;
-    margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  margin-top: 0;
+  border-radius: 100%;
+  border: 2px solid #fbfbfb;
+  margin-bottom: 24px;
 }
 
 .reviews-subtitle {
-    font-size: 16px;
-    line-height: 1.25;
-    text-align: center;
-    margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .reviews-text {
-    font-size: 14px;
-    line-height: 1.29;
-    text-align: center;
-    color: rgba(12, 12, 12, 0.4);
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: rgba(12, 12, 12, 0.4);
 }
 
 @media screen and (max-width: 767px) {
-    .hidden-box2 {
-        display: none;
-    }
+  .hidden-box2 {
+    display: none;
+  }
 
-    .hidden-box3 {
-        display: none;
-    }
+  .hidden-box3 {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .reviews {
-        padding-bottom: 80px;
-    }
+  .reviews {
+    padding-bottom: 80px;
+  }
 
-    .reviews-list {
+  .reviews-list {
     display: flex;
     align-items: stretch;
     justify-content: space-between;
-    
-}
+  }
 
   .reviews-title {
     font-size: 48px;
@@ -88,23 +88,21 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-    .reviews-item:nth-child(3) {
-        display: none;
-    }
+  .reviews-item:nth-child(3) {
+    display: none;
+  }
 
-    .reviews-list {
-      gap: 16px;
-    }
+  .reviews-list {
+    gap: 16px;
+  }
 }
 
-
-
 @media screen and (min-width: 1280px) {
-    .reviews {
-        padding-bottom: 100px;
-        }
+  .reviews {
+    padding-bottom: 100px;
+  }
 
-    .reviews-list {
-        gap: 20px;
-    }
+  .reviews-list {
+    gap: 20px;
+  }
 }
