@@ -82,6 +82,9 @@
 .hero-btn:active {
   color: #3350e9;
 }
+.hero-picture {
+  border-radius: 30px;
+}
 /* Styles for Tablet devices */
 @media screen and (min-width: 768px) {
   .hero {
@@ -90,8 +93,8 @@
   }
   .hero-top-container {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    /* justify-content: space-between;
+    align-items: baseline; */
   }
   .title-container {
     margin-bottom: 0;
@@ -99,14 +102,14 @@
   .hero-title {
     font-size: 70px;
     line-height: 0.9;
-    min-width: 557px;
+    max-width: 557px;
     margin-bottom: 20px;
   }
   .hero-title-span {
     color: #3350e9;
   }
   .hero-text {
-    min-width: 480px;
+    max-width: 480px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
@@ -117,6 +120,7 @@
   .clients-container {
     display: flex;
     flex-direction: column;
+    /* justify-content: flex-end; */
     row-gap: 180px;
   }
   .clients {
@@ -150,6 +154,9 @@
   .hero-btn:focus {
     color: #3350e9;
   }
+  .hero-picture {
+    border-radius: 50px;
+  }
 }
 
 /* Styles for Desktop devices */
@@ -162,16 +169,21 @@
     padding-bottom: 100px;
     padding-top: 80px;
   }
+  .hero-top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
   .hero-title {
     font-size: 72px;
     line-height: 0.9;
-    min-width: 597px;
+    max-width: 597px;
     margin-right: 407px;
     margin: 0;
   }
 
   .hero-text {
-    min-width: 480px;
+    max-width: 480px;
     font-size: 16px;
   }
 
@@ -210,5 +222,8 @@
   .hero-btn:hover,
   .hero-btn:focus {
     color: #3350e9;
+  }
+  .hero-picture {
+    border-radius: 50px;
   }
 }
