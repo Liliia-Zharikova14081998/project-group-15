@@ -1,0 +1,155 @@
+
+
+/* section advertisement */
+
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+                }
+
+
+.advertisement{
+    padding-bottom: 60px;
+    }
+
+        
+
+.advertisement-content {
+    padding: 0;
+    margin: 0 auto;
+    padding: 60px 28px;
+    background: #0c0c0c;
+    background-image: url(/img/advertisement/adver-mob1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: none;
+                    
+}
+
+@media (min-resolution: 2x){
+    .advertisement-content{
+        background-image: url(/img/advertisement/adver-mob@2x.png);
+        
+    }
+}
+
+
+.text{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    align-items: flex-start;
+
+}
+
+.your-story {
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.btn-link {
+    width: 160px;
+    height: 48px;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fbfbfb;
+    margin-top: 28px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-link:active,
+.btn-link:focus,
+.btn-link:hover {
+    background: #fbfbfb;
+    color: #0c0c0c;
+    
+}
+
+
+@media screen and (min-width: 768px){
+    .advertisement{
+    padding-bottom: 80px;
+    }
+
+    .advertisement-content{
+        height: 425px;
+        padding: 80px 64px;
+        background-image: url(/img/advertisement/adver-tablet1.png);
+    }
+
+@media (min-resolution: 2x) {
+    .advertisement-content{
+        background-image: url(/img/advertisement/adver-tablet@2x.png)
+            }}
+
+.text {
+    font-size: 48px;
+    line-height: 0.92;
+    width: 576px;
+    height: 185px;
+}
+
+.btn-link{
+    margin-top: 32px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+    .advertisement {
+        padding-bottom: 100px;
+
+    }
+
+.advertisement-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1150px;
+    height: 298px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-image: url(/img/advertisement/adver-desctop1.png);
+    padding: 83px 80px;
+}
+
+@media (min-resolution: 2x) {
+    .advertisement-content {
+        background-image: url(/img/advertisement/adver-desctop@2x.png);
+        }
+    }
+
+    .text {
+        width: 690px;
+        height: 132px;
+
+    }
+
+    .btn-link {
+        margin: 0;
+    }
+
+    .btn-link:hover,
+    .btn-link:focus {
+        background: #fbfbfb;
+        color: #0c0c0c;
+}
+}

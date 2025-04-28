@@ -1,0 +1,95 @@
+<section id="contact-us" class="contact-us">
+  <div class="container contact-container">
+    <h2 class="contact-title">Contact Us</h2>
+    <div class="contact-flex">
+      <div class="form-container">
+        <p class="contact-form-des">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+
+        <form class="contact-form">
+          <div class="contact-field">
+            <label for="user-name" class="contact-label"></label>
+            <div class="input-wrap">
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                class="contact-input"
+                placeholder="Name"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="contact-field">
+            <label for="user-email" class="contact-label"></label>
+            <div class="input-wrap">
+              <input
+                type="email"
+                name="user-email"
+                id="user-email"
+                class="contact-input"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                placeholder="Email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="contact-field">
+            <label for="user-phone" class="contact-label"></label>
+            <div class="input-wrap">
+              <input
+                type="tel"
+                name="user-phone"
+                id="user-phone"
+                class="contact-input"
+                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                placeholder="+380"
+                required
+              />
+            </div>
+          </div>
+
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            class="contact-input contact-textarea"
+            placeholder="Comment"
+          ></textarea>
+          <button type="submit" class="contact-btn">Send</button>
+        </form>
+      </div>
+
+      <picture class="contact-image">
+        <source
+          srcset="
+            /img/contact/watch-pc-min.jpg    1x,
+            /img/contact/watch-pc@2x-min.jpg 2x
+          "
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="
+            /img/contact/watch-tab-min.jpg    1x,
+            /img/contact/watch-tab@2x-min.jpg 2x
+          "
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="
+            /img/contact/watch-mob-min.jpg    1x,
+            /img/contact/watch-mob@2x-min.jpg 2x
+          "
+          media="(max-width:767px)"
+        />
+        <img
+          src="/img/contact/watch-pc-min.jpg"
+          alt="watch-on-the-stoun-with-black-backgraun "
+        />
+      </picture>
+    </div>
+  </div>
+</section>
