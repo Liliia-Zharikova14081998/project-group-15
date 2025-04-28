@@ -10,7 +10,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
     <script type="module" crossorigin src="/project-group-15/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-group-15/assets/index-RCEeJkJ7.css">
+    <link rel="stylesheet" crossorigin href="/project-group-15/assets/index-CD1qIgML.css">
   </head>
   <body>
     <header class="header">
@@ -604,6 +604,7 @@
                 id="user-name"
                 class="contact-input"
                 placeholder="Name"
+                aria-label="name"
                 required
               />
             </div>
@@ -619,6 +620,7 @@
                 class="contact-input"
                 pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
                 placeholder="Email"
+                aria-label="email"
                 required
               />
             </div>
@@ -634,6 +636,7 @@
                 class="contact-input"
                 pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
                 placeholder="+380"
+                aria-label="phone-number"
                 required
               />
             </div>
@@ -644,6 +647,7 @@
             id="user-comment"
             class="contact-input contact-textarea"
             placeholder="Comment"
+            aria-label="comment"
           ></textarea>
           <button type="submit" class="contact-btn">Send</button>
         </form>
@@ -663,6 +667,7 @@
           media="(max-width:767px)"
         />
         <img
+          class="contact-image"
           src="/project-group-15/assets/watch-pc-min-KMym1RB1.jpg"
           alt="watch-on-the-stoun-with-black-backgraun "
         />
