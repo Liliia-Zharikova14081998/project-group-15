@@ -1,5 +1,3 @@
-
-
 .sale {
   padding-bottom: 60px;
 }
@@ -46,6 +44,7 @@
     gap: 10px;
     flex-direction: column;
     margin-bottom: 0;
+    margin-right: 20px;
   }
   .item-clock-sale {
     width: 132px;
@@ -59,7 +58,7 @@
 .main-clock {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
+  max-width: 100%;
   height: 385px;
   background-color: #f3f3f3;
   display: flex;
@@ -70,7 +69,7 @@
 @media screen and (min-width: 768px) {
   .clocks-container {
     display: flex;
-    column-gap: 20px;
+
     flex-wrap: wrap;
   }
   .main-clock {
@@ -83,6 +82,7 @@
 @media screen and (min-width: 1280px) {
   .main-clock {
     width: 428px;
+    margin-right: 40px;
   }
   .clocks-container {
     flex-wrap: nowrap;
@@ -96,8 +96,8 @@
 
 .about-clock {
   border-radius: 30px;
-  width: 335px;
-  height: 561px;
+  width: 100%;
+
   background-color: #3350e9;
   margin-top: 20px;
 
@@ -108,7 +108,7 @@
   .about-clock {
     border-radius: 50px;
     width: 704px;
-    height: 518px;
+
     margin-top: 40px;
 
     padding: 60px;
@@ -118,8 +118,7 @@
 @media screen and (min-width: 1280px) {
   .about-clock {
     width: 530px;
-    height: 558px;
-    margin-left: 20px;
+
     margin-top: 0;
   }
 }
@@ -216,4 +215,4 @@
   .benefits-about-clock {
     max-width: 398px;
   }
-} 
+}
