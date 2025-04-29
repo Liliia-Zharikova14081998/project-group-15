@@ -6,6 +6,11 @@
   padding: 40px 28px 28px;
   border-radius: 30px;
 }
+
+.page-footer {
+  padding-bottom: 20px;
+}
+
 .footer-top {
   display: flex;
   flex-direction: column;
@@ -154,6 +159,11 @@
   .footer-container {
     padding: 40px 40px 28px;
   }
+
+  .page-footer {
+    padding-bottom: 32px;
+  }
+
   .footer-top {
     flex-direction: row;
     justify-content: space-between;
@@ -221,7 +231,7 @@
 }
 @media screen and (min-width: 1280px) {
   .page-footer {
-    padding: 0 24px;
+    padding: 0 24px 32px;
   }
 
   .footer-top {
